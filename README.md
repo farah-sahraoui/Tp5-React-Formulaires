@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# TP React - Formulaires et Contextes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ce projet a été réalisé dans le cadre d'un Travaux Pratiques pour apprendre les bases de React, notamment la création de formulaires, le partage de données entre composants et l'utilisation du contexte.
 
-## Available Scripts
+##  Aperçu du projet:
 
-In the project directory, you can run:
+### 1. Formulaire contrôlé et non-contrôlé
+![WhatsApp Image 2026-03-20 at 11 17 20](https://github.com/user-attachments/assets/2ce2e959-fcba-46e5-8864-918dc345288a)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 2. Alerte du formulaire contrôlé
+![WhatsApp Image 2026-03-20 at 11 17 45](https://github.com/user-attachments/assets/e8bc5bf3-048b-41d1-b0c2-a6e9437aa563)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+### 3. Alerte du formulaire non-contrôlé
+![WhatsApp Image 2026-03-20 at 11 18 10](https://github.com/user-attachments/assets/0bd51985-f076-4ad9-b6a8-7f223619c160)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### 4. Convertisseur de température
+![WhatsApp Image 2026-03-20 at 11 18 51](https://github.com/user-attachments/assets/30028ff3-c836-4cd7-9c46-71cb33788172)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 5. Profil utilisateur avec contexte
+![WhatsApp Image 2026-03-20 at 11 19 47](https://github.com/user-attachments/assets/d7d1fa15-8ac6-437a-a621-8dedad47b356)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+##  Technologies utilisées
 
-### `npm run eject`
+- React.js
+- JavaScript (ES6)
+- HTML / CSS
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+##  Fonctionnalités
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Formulaire contrôlé** : gestion des champs avec useState
+- **Formulaire non-contrôlé** : gestion des champs avec useRef
+- **Convertisseur de température** : partage d'état entre composants parent/enfant
+- **Contexte utilisateur** : gestion globale de l'état d'authentification
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+##  Objectifs d'apprentissage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Créer des formulaires contrôlés et non-contrôlés
+- Partager un état entre un composant parent et enfant (lifting state up)
+- Utiliser le contexte React pour partager des données globalement
+- Structurer une application React de manière claire et maintenable
 
-## Learn More
+ ##  Conclusion:
+Ce projet m'a permis de mettre en pratique les concepts fondamentaux de React. J'ai appris à :
+-Manipuler les formulaires de deux manières différentes (contrôlée et non-contrôlée)
+-Partager des données entre composants grâce au lifting state up
+-Gérer un état global avec le contexte React, essentiel pour des applications de taille moyenne à grande
+-Ces bases sont indispensables pour construire des applications React robustes et maintenables. 
+Je suis maintenant capable de créer des composants interactifs et de structurer efficacement mes projets React.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
